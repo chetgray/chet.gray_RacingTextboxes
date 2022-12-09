@@ -6,7 +6,7 @@ User Story #211906: JQuery: Racing Textboxes App
 
 > - [ ] Create a "race" app.
 >
-> - [ ] Your app will let the user enter the name and distance to travel of 3 separate
+> - [x] Your app will let the user enter the name and distance to travel of 3 separate
 >       "racers" - in our case, let's just make these textboxes.
 >
 > - [x] The textbox represents how much distance that racer still has left to go.
@@ -16,9 +16,9 @@ User Story #211906: JQuery: Racing Textboxes App
 > - [x] There will be 4 buttons.
 >
 > - [x] Under each racer name, there should be a "Go!" button.
-> - [ ] Clicking that button will start that racer racing.
-> - [ ] The racer box will get smaller as he runs the race. (Hint: Use .hide for this).
-> - [ ] You can click the "Go!" buttons one at a time to start the racers at various
+> - [x] Clicking that button will start that racer racing.
+> - [x] The racer box will get smaller as he runs the race. (Hint: Use .hide for this).
+> - [x] You can click the "Go!" buttons one at a time to start the racers at various
 >       handicaps and see who wins.
 >
 > - [ ] There should also be a "Go All!" button that starts ALL the racers going for
