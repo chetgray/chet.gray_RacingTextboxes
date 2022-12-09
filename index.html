@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="user">
+
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/sanitize.css" />
+  <link rel="stylesheet" href="styles/mvp.css" />
+  <!-- <link rel="stylesheet" href="styles/debug.css" /> -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Racing Textboxes</title>
+</head>
+
+<body>
+  <header>
+    <h1>Racing Textboxes</h1>
+  </header>
+  <main>
+    <section class="race" id="race-block">
+      <section>
+        <aside class="race__racer racer" id="racer-1">
+          <label class="racer__label" for="racer-1-name">Racer 1</label>
+          <input class="racer__name" id="racer-1-name" type="text" placeholder="name" />
+          <input class="racer__distance" type="text" placeholder="distance" />
+          <button class="racer__go-btn" type="button">Go!</button>
+        </aside>
+        <aside class="race__racer racer" id="racer-2">
+          <label class="racer__label" for="racer-2-name">Racer 2</label>
+          <input class="racer__name" id="racer-2-name" type="text" placeholder="name" />
+          <input class="racer__distance" type="text" placeholder="distance" />
+          <button class="racer__go-btn" type="button">Go!</button>
+        </aside>
+        <aside class="race__racer racer" id="racer-3">
+          <label class="racer__label" for="racer-3-name">Racer 3</label>
+          <input class="racer__name" id="racer-3-name" type="text" placeholder="name" />
+          <input class="racer__distance" type="text" placeholder="distance" />
+          <button class="racer__go-btn" type="button">Go!</button>
+        </aside>
+      </section>
+      <div><button class="race__go-all-btn" type="button">Go All!</button></div>
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="scripts/racing-textboxes.js"></script>
+</body>
+
+</html>
