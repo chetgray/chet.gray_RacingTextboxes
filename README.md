@@ -4,7 +4,7 @@ RacingTextboxes
 User Story #211906: JQuery: Racing Textboxes App
 ------------------------------------------------
 
-> - [ ] Create a "race" app.
+> - [x] Create a "race" app.
 >
 > - [x] Your app will let the user enter the name and distance to travel of 3 separate
 >       "racers" - in our case, let's just make these textboxes.
@@ -24,7 +24,7 @@ User Story #211906: JQuery: Racing Textboxes App
 > - [x] There should also be a "Go All!" button that starts ALL the racers going for
 >       their appropriate distances.
 >
-> - [ ] Change the racer's textbox color when they "Go!" Use different colors for the
+> - [x] Change the racer's textbox color when they "Go!" Use different colors for the
 >       different racers.
 >
 > NOTE: You don't need to make any racers go faster than the others. This is just about
