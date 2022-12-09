@@ -21,7 +21,7 @@ User Story #211906: JQuery: Racing Textboxes App
 > - [x] You can click the "Go!" buttons one at a time to start the racers at various
 >       handicaps and see who wins.
 >
-> - [ ] There should also be a "Go All!" button that starts ALL the racers going for
+> - [x] There should also be a "Go All!" button that starts ALL the racers going for
 >       their appropriate distances.
 >
 > - [ ] Change the racer's textbox color when they "Go!" Use different colors for the

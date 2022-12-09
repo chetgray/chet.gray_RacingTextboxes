@@ -15,4 +15,9 @@ $(function () {
   }
 
   $(".racer__go-btn").on("click", racerGoBtnGo);
+
+  $(".race__go-all-btn").on("click", function () {
+    const $race = $(this).parents(".race");
+    $race.find(".racer__go-btn").trigger("click");
+  });
 });
