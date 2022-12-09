@@ -28,7 +28,9 @@ $(function () {
       $name.css("background-color", stringToHashedHsl(name));
     }
     const distance = parseInt($racer.find(".racer__distance").val());
-    console.log("distance :>> ", distance);
+    if (isNaN(distance)) {
+      return;
+    }
     $name.animate({ width: "0%" }, distance);
   }
 
